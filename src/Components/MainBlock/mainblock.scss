@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url('../../img/bg.jpg') no-repeat;
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        .header {
+            width: 100%;
+            padding: 35px 240px 0 240px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .links {
+                display: flex;
+                width: 270px;
+                justify-content: space-between;
+                .line {
+                    width: 2px;
+                    height: 47px;
+                    opacity: 0.5;
+                    background: #FFF;
+                }
+            }
+        }
+        .content {
+            width: 100%;
+            display: flex;
+            padding: 64px 240px 0 240px;
+            box-sizing: border-box;
+            .headphones {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                img {
+                    width: 570px;
+                    height: 583px;
+                }
+            }
+            .text {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-between;
+                height: 583px;
+                p {
+                    color: #FFF;
+                    font-size: 22px;
+                    font-family: Rubik;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 140%;
+                    letter-spacing: 2.2px;
+                    text-transform: uppercase;
+                    margin: 0;
+                }
+                h1 {
+                    padding-top: 20px;
+                    color: #FFF;
+                    font-size: 99.17px;
+                    font-family: Rubik;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 100%;
+                    text-transform: uppercase;
+                    margin: 0;
+                }
+                .price {
+                    padding-top: 55px;
+                    width: 273px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .line {
+                        width: 2px;
+                        height: 57px;
+                        background-color: #FFF;
+                    }
+                    p {
+                        font-size: 44px;
+                        font-family: Rubik;
+                        font-style: normal;
+                        font-weight: 700;
+                    }
+                    s {
+                        color: #FFF;
+                        opacity: 0.7;
+                    }
+                    span {
+                        color: #FFF;
+                        font-size: 31px;
+                        font-family: Rubik;
+                        font-weight: 500;
+                        font-style: normal;
+                        line-height: 140%;
+                        opacity: 0.7;
+                        text-decoration-line: strikethrough;
+
+                    }
+                }
+                button {
+                    margin-top: 45px;
+                    border: none;
+                    border-radius: 62px;
+                    background: #FFF;
+                    color: #FF4948;
+                    font-size: 22px;
+                    font-family: Rubik;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 140%;
+                    padding: 15px 45px;
+                }
+                
+            }
+        }
+    }
+}
+@media(max-width:1920px) {
+    .main .container .content .headphones img {
+        width: 570px;
+        height: 583px;
+    }
+    
+}
+@media(max-width:1620px) {
+    .main .container header {
+        padding: 35px 160px 0 160px;
+    }
+    .main .container .content {
+        padding: 42px 160px 0 160px;
+    }
+    .main .container .content .headphones img {
+        width: 470px;
+        height: 483px;
+    }
+    .main .container .content .text {
+        height: 388px;
+    }
+    .main .container .content .text h1  {
+        font-size: 75px;
+    }
+    .main .container .content .text .price p {
+        font-size: 30px;
+    }
+    .main .container .content .text .price span {
+        font-size: 20px;
+    }
+    .main .container .content .text .price .line {
+        height: 38px;
+    }
+    .main .container .content .text button  {
+        font-size: 15px;
+        padding: 10px 30px;
+    }
+}
