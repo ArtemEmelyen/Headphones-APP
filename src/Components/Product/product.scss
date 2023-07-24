@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+.product {
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    .container {
+        width: 100%;
+        display: flex;
+        padding: 30px 240px 0 240px;
+        box-sizing: border-box;
+        flex-direction: column;
+        .text {
+            width: 100%;
+            text-align: center;
+            h1 {
+                color: #180202;
+                font-family: Rubik;
+                font-size: 44px;
+                font-weight: 800;
+            }
+            p {
+                font-family: Rubik;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                color: #180202;
+                
+            }
+        }
+    }
+    .content {
+        width: 100%;
+        display: flex;
+        padding: 30px 240px 0 240px;
+        box-sizing: border-box;
+        justify-content: space-between;
+        
+        .pink {
+            width: 100%;
+            img {
+                width: 302px;
+                height: 355px;
+                position: absolute;
+                margin-left: 30px;
+            }
+            .trash1 {
+                border-radius: 50%;
+                width: 78px;
+                height: 77px;
+                background: #FFE5EE;
+                border-color: #fff;
+                border: 6px solid #FFF;
+                position: relative;
+                left: 280px;
+                top: 15px;
+            }
+            .stars1 {
+                width: 100%;
+                img {
+                    width: 152px;
+                    height: 25px;
+                    position: relative;
+                    top: 300px;
+                }
+                p {
+                    color: #180202;
+                    font-family: Rubik;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    position: relative;
+                    top: 300px;
+                    left: 33px;
+                }
+                span {
+                    color: #180202;
+                    text-align: center;
+                    font-family: Rubik;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    position: relative;
+                    top: 220px;
+                    left: 295px;
+                }
+                h4 {
+                    color: #180202;
+                    text-align: center;
+                    font-family: Rubik;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 500;
+                    position: relative;
+                    top: 210px;
+                    left: 126px;
+                }
+            }
+        }
+        .blue {
+            width: 100%;
+            img {
+                width: 302px;
+                height: 355px;
+                position: absolute; 
+                margin-left: 30px
+            }
+            .trash2 {
+                border-radius: 50%;
+                width: 78px;
+                height: 77px;
+                background: #E5F1FF;
+                border-color: #fff;
+                border: 6px solid #FFF;
+                position: relative;
+                left: 280px;
+                top: 15px;
+            }
+            .stars2 {
+                width: 100%;
+                img {
+                    width: 152px;
+                    height: 25px;
+                    position: relative;
+                    top: 300px;
+                }
+                p {
+                    color: #180202;
+                    font-family: Rubik;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    position: relative;
+                    top: 300px;
+                    left: 33px;
+                }
+                span {
+                    color: #180202;
+                    text-align: center;
+                    font-family: Rubik;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    position: relative;
+                    top: 220px;
+                    left: 295px;
+                }
+                h4 {
+                    color: #180202;
+                    text-align: center;
+                    font-family: Rubik;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 500;
+                    position: relative;
+                    top: 210px;
+                    left: 126px;
+                }
+            }
+        }
+        .green {
+            width: 100%;
+            img {
+                width: 302px;
+                height: 355px;
+                position: absolute; 
+                margin-left: 30px
+            }
+            .trash3 {
+                border-radius: 50%;
+                width: 78px;
+                height: 77px;
+                background: #E5FFFB;
+                border-color: #fff;
+                border: 6px solid #FFF;
+                position: relative;
+                left: 280px;
+                top: 15px;
+            }
+            .stars3 {
+                width: 100%;
+                img {
+                    width: 152px;
+                    height: 25px;
+                    position: relative;
+                    top: 300px;
+                }
+                p {
+                    color: #180202;
+                    font-family: Rubik;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    position: relative;
+                    top: 300px;
+                    left: 33px;
+                }
+                span {
+                    color: #180202;
+                    text-align: center;
+                    font-family: Rubik;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    position: relative;
+                    top: 220px;
+                    left: 295px;
+                }
+                h4 {
+                    color: #180202;
+                    text-align: center;
+                    font-family: Rubik;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 500;
+                    position: relative;
+                    top: 210px;
+                    left: 126px;
+                }
+            }
+        }
+    }
+}

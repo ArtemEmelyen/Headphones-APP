@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+.feature {
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    
+    .container {
+        display: flex;
+        width: 100%;
+        padding: 30px 240px 0 240px;
+        box-sizing: border-box;
+        flex-direction: row;
+        .block {
+            width: 100%;
+            
+            .text {
+                width: 100%;
+                font-size: 20px;
+                color: #180202;
+                font-family: Rubik;
+                font-weight: 700;
+                display: flex;
+            }
+            .components {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                width: 300px;
+                height: 400px;
+                .icons {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+                }
+                .text_icons {
+                    display: flex;
+                    width: 100%;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    margin-left: 20px;
+                    .text1 h2{
+                        font-family: Rubik;
+                        font-size: 31px;
+                        font-style: normal;
+                        font-weight: 500;
+                        color: #180202;
+                        line-height: 150%;
+                        margin: 0;
+                    }
+                    .text1 p {
+                        color: #180202;
+                        font-family: Rubik;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%;
+                        margin: 0;
+                    }
+                    .text1 a {
+                        color: #FF4948;
+                        font-family: Rubik;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 0.5s;
+                        text-decoration: none;
+                    }
+                    .text2 h2{
+                        font-family: Rubik;
+                        font-size: 31px;
+                        font-style: normal;
+                        font-weight: 500;
+                        color: #180202;
+                        line-height: 150%;
+                        margin: 0;}
+                    .text2 p {
+                        color: #180202;
+                        font-family: Rubik;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%;
+                        margin: 0;
+                    }
+                    .text2 a {
+                        color: #FF4948;
+                        font-family: Rubik;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 0.5s;
+                        text-decoration: none;
+                    }
+                    .text3 h2{
+                        font-family: Rubik;
+                        font-size: 31px;
+                        font-style: normal;
+                        font-weight: 500;
+                        color: #180202;
+                        line-height: 150%;
+                        margin: 0;
+                    }
+                    .text3 p {
+                        color: #180202;
+                        font-family: Rubik;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%;
+                        margin: 0;
+                    }
+                    .text3 a {
+                        color: #FF4948;
+                        font-family: Rubik;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 0.5s;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .image {
+            width: 100%;
+            display: flex;
+            margin-top: 60px;
+        }
+        .image img{
+            width: 580px;
+            height: 560px;
+        }
+    }   
+}
